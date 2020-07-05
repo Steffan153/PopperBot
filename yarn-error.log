@@ -1,5 +1,5 @@
 Arguments: 
-  /home/caleb/.nvm/versions/node/v12.8.0/bin/node /usr/bin/yarn start
+  /home/caleb/.nvm/versions/node/v12.8.0/bin/node /usr/bin/yarn
 
 PATH: 
   /home/caleb/bin:/home/caleb/.local/bin:/home/caleb/Documents/Judy-master:/home/caleb/.gem/ruby/2.6.0/bin:/home/caleb/flutter/bin:/home/caleb/.yarn/bin:/home/caleb/.config/yarn/global/node_modules/.bin:/home/caleb/.elan/bin:/home/caleb/bin:/home/caleb/.sdkman/candidates/sbt/current/bin:/home/caleb/bin:/home/caleb/.nvm/versions/node/v12.8.0/bin:/home/caleb/.local/bin:/home/caleb/Documents/Judy-master:/home/caleb/.gem/ruby/2.6.0/bin:/home/caleb/flutter/bin:/home/caleb/.yarn/bin:/home/caleb/.config/yarn/global/node_modules/.bin:/home/caleb/.local/bin:/home/caleb/.local/bin:/home/caleb/.elan/bin:/home/caleb/bin:/home/caleb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/caleb/Android/Sdk/tools/bin:/home/caleb/Android/Sdk/platform-tools:/home/caleb/Android/Sdk/emulator:/usr/local/go/bin:/home/caleb/go/bin:/home/caleb/dotnet:/home/caleb/.gem/ruby/2.7.0/bin:/home/caleb/tabby/release/linux-unpacked:/home/caleb/Android/Sdk/tools/bin:/home/caleb/Android/Sdk/platform-tools:/home/caleb/Android/Sdk/emulator:/usr/local/go/bin:/home/caleb/go/bin:/home/caleb/dotnet:/home/caleb/.gem/ruby/2.7.0/bin:/home/caleb/tabby/release/linux-unpacked
@@ -18,36 +18,35 @@ Trace:
 
 npm manifest: 
   {
-    "name": "popperbot",
-    "version": "1.0.0",
-    "description": "A Discord bot for the Florin Pop discord server",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "nodemon src/bot.js"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jodylecompte/PopperBot.git"
-    },
-    "author": "Jody LeCompte <jody@jodylecompte.com>",
-    "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jodylecompte/PopperBot/issues"
-    },
-    "homepage": "https://github.com/jodylecompte/PopperBot#readme",
-    "dependencies": {
-      "cheerio": "^1.0.0-rc.3",
-      "discord.js": "^12.2.0",
-      "discord.js-commando": "git+https://github.com/discordjs/Commando.git",
-      "dotenv": "^8.2.0",
-      "mathjs": "^7.0.2",
-      "node-fetch": "^2.6.0",
-      "urban": "^0.3.2"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.4"
-    }
+      "name": "popperbot",
+      "version": "1.0.0",
+      "description": "A Discord bot for the Florin Pop discord server",
+      "main": "index.js",
+      "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1",
+          "format": "prettier --write \"**/*.js\"",
+          "start": "nodemon src/bot.js"
+      },
+      "repository": {
+          "type": "git",
+          "url": "git+https://github.com/jodylecompte/PopperBot.git"
+      },
+      "author": "Jody LeCompte <jody@jodylecompte.com>",
+      "license": "MIT",
+      "bugs": {
+          "url": "https://github.com/jodylecompte/PopperBot/issues"
+      },
+      "homepage": "https://github.com/jodylecompte/PopperBot#readme",
+      "dependencies": {
+          "cheerio": "^1.0.0-rc.3",
+          "discord.js": "^12.2.0",
+          "discord.js-commando": "git+https://github.com/discordjs/Commando.git",
+          "dotenv": "^8.2.0",
+          "node-fetch": "^2.6.0"
+      },
+      "devDependencies": {
+          "prettier": "^2.0.5"
+      }
   }
 
 yarn manifest: 
