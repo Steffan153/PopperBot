@@ -8,6 +8,7 @@ module.exports = class CatusCodeCommand extends Command {
             group: 'utility',
             memberName: 'hex',
             description: 'Display a hex or make a random one',
+            examples: ['hex ff9966', 'hex'],
             args: [
                 {
                     key: 's',
